@@ -9,17 +9,17 @@ After the classification, we try different options to select the predicted price
 
 ## Vgg 16
 ![image](https://github.com/ghalys/VCE_03/assets/127297865/5086c6b2-a9fa-4130-9cb9-9185fbec6470)
-### accuracy of 90%
+### -> accuracy of 90%
 
 ## ResNet 50
 ![image](https://github.com/ghalys/VCE_03/assets/127297865/0c1129e5-ff0b-43b2-b9fc-45914757c389)
-### accuracy of 94%
+### -> accuracy of 94%
 
 After analysis of the prices over our testing dataset, depending on the distance chosen, we can consider either classes with a confidence that exceed a threshold of 20% or simply select the class with the highest confidence.
 ![image](https://github.com/ghalys/VCE_03/assets/127297865/15d0c791-13ef-4721-8de0-54cec062ff56)
 
 # 2) Regression with ResNet 50
-We also tried to predict the price directly from the images using ResNet adapted to the regression. However, we obtain less interesting results. We did not pass a lot of time on this approach so more improvement can be made.
+We also tried to predict the price directly from the images using ResNet adapted to the regression. However, we obtain less interesting results. We did not spend a lot of time on this approach so more improvement can be made.
 ![image](https://github.com/ghalys/car_price_prediction/assets/127297865/1e940ec2-27ff-4631-b69e-c542faaef81b)
 
 
