@@ -24,4 +24,4 @@ We also tried to predict the price directly from the images using ResNet adapted
 
 
 # 3) Classification with Yolo Features
-We devided prices into 15 categories and used features that were extracted from Yolo model. We got an accuracy of 20%.
+We devided prices into 15 categories and used features that were extracted from Yolo model. We got an accuracy of 7%.
